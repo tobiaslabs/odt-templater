@@ -56,7 +56,7 @@
 		</style:style>
 		<style:style style:class="text" style:default-outline-level="1" style:display-name="Heading 1" style:family="paragraph" style:name="Heading_20_1" style:next-style-name="Text_20_body" style:parent-style-name="Heading">
 			<style:paragraph-properties fo:margin-bottom="0.0835in" fo:margin-top="0.1665in" style:contextual-spacing="false"/>
-			<style:text-properties fo:font-size="130%" fo:font-weight="bold" style:font-size-asian="130%" style:font-size-complex="130%" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+			<style:text-properties fo:color="#ff33ff" fo:font-size="130%" fo:font-weight="bold" style:font-size-asian="130%" style:font-size-complex="130%" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
 		</style:style>
 		<style:style style:class="text" style:default-outline-level="2" style:display-name="Heading 2" style:family="paragraph" style:name="Heading_20_2" style:next-style-name="Text_20_body" style:parent-style-name="Heading">
 			<style:paragraph-properties fo:margin-bottom="0.0835in" fo:margin-top="0.139in" style:contextual-spacing="false"/>
