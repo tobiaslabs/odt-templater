@@ -51,13 +51,15 @@ the folder content into a valid ODT file.
 
 Example:
 
-	var package = require('odt-templater/package-odt.js')
-	package({
-		outputFile: 'output.odt',
-		inputFolder: 'resources/minimal-odt'
-	}, function() {
-		console.log('done packaging')
-	})
+```js
+var package = require('odt-templater/package-odt.js')
+package({
+	outputFile: 'output.odt',
+	inputFolder: 'resources/minimal-odt'
+}, function() {
+	console.log('done packaging')
+})
+```
 
 ### `template-odt.js`
 
@@ -71,18 +73,20 @@ left unchanged.)
 
 Example:
 
-	var templater = require('odt-templater/template-odt.js')
-	templater({
-		outputFile: 'output.odt',
-		inputFolder: 'resources/minimal-odt',
-		data: {
-			user: {
-				firstName: 'John'
-			}
+```js
+var templater = require('odt-templater/template-odt.js')
+templater({
+	outputFile: 'output.odt',
+	inputFolder: 'resources/minimal-odt',
+	data: {
+		user: {
+			firstName: 'John'
 		}
-	}, function() {
-		console.log('done templating')
-	})
+	}
+}, function() {
+	console.log('done templating')
+})
+```
 
 ### `unpackage-odt.js`
 
@@ -91,13 +95,15 @@ attempting to create that folder if it doesn't exist.
 
 Example:
 
-	var unpackage = require('./unpackage-odt.js')
-	unpackage({
-		inputFile: 'resources/example/file.odt',
-		outputFolder: 'resources/example/file'
-	}, function() {
-		console.log('done unpackaging')
-	})
+```js
+var unpackage = require('odt-templater/unpackage-odt.js')
+unpackage({
+	inputFile: 'resources/example/file.odt',
+	outputFolder: 'resources/example/file'
+}, function() {
+	console.log('done unpackaging')
+})
+```
 
 ## Process Flow
 
