@@ -1,5 +1,7 @@
 # ODT Templater
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saibotsivad/odt-templater.svg)](https://greenkeeper.io/)
+
 Markdown to physical paper.
 
 Write your documents in markdown, output them as templateable ODT files.
